@@ -7,13 +7,19 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		D617D30C203AE2A000526ECE /* VacancyTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D617D30B203AE2A000526ECE /* VacancyTableViewCell.swift */; };
+		D6233B2F203B60D30057296D /* VacancyInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6233B2E203B60D30057296D /* VacancyInteractor.swift */; };
+		D6233B31203B60F10057296D /* VacancyPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6233B30203B60F10057296D /* VacancyPresenter.swift */; };
+		D6233B33203B66400057296D /* VacanciesAssembly.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6233B32203B66400057296D /* VacanciesAssembly.swift */; };
 		D6A173972033602B0072D9EF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6A173962033602B0072D9EF /* AppDelegate.swift */; };
 		D6A173992033602B0072D9EF /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6A173982033602B0072D9EF /* ViewController.swift */; };
-		D6A1739C2033602B0072D9EF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D6A1739A2033602B0072D9EF /* Main.storyboard */; };
 		D6A1739F2033602B0072D9EF /* hh_test.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = D6A1739D2033602B0072D9EF /* hh_test.xcdatamodeld */; };
 		D6A173A12033602B0072D9EF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D6A173A02033602B0072D9EF /* Assets.xcassets */; };
 		D6A173A42033602B0072D9EF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D6A173A22033602B0072D9EF /* LaunchScreen.storyboard */; };
 		D6A173AF2033602B0072D9EF /* hh_testTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6A173AE2033602B0072D9EF /* hh_testTests.swift */; };
+		D6A173BB203360680072D9EF /* VacancyService.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6A173BA203360680072D9EF /* VacancyService.swift */; };
+		D6A173BF2033701D0072D9EF /* NetworkClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6A173BE2033701D0072D9EF /* NetworkClient.swift */; };
+		D6A173C12033703E0072D9EF /* CoreHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6A173C02033703E0072D9EF /* CoreHelper.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -27,10 +33,13 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		D617D30B203AE2A000526ECE /* VacancyTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VacancyTableViewCell.swift; sourceTree = "<group>"; };
+		D6233B2E203B60D30057296D /* VacancyInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VacancyInteractor.swift; sourceTree = "<group>"; };
+		D6233B30203B60F10057296D /* VacancyPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VacancyPresenter.swift; sourceTree = "<group>"; };
+		D6233B32203B66400057296D /* VacanciesAssembly.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VacanciesAssembly.swift; sourceTree = "<group>"; };
 		D6A173932033602B0072D9EF /* hh_test.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = hh_test.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D6A173962033602B0072D9EF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		D6A173982033602B0072D9EF /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		D6A1739B2033602B0072D9EF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		D6A1739E2033602B0072D9EF /* hh_test.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = hh_test.xcdatamodel; sourceTree = "<group>"; };
 		D6A173A02033602B0072D9EF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D6A173A32033602B0072D9EF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -38,6 +47,9 @@
 		D6A173AA2033602B0072D9EF /* hh_testTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = hh_testTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		D6A173AE2033602B0072D9EF /* hh_testTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = hh_testTests.swift; sourceTree = "<group>"; };
 		D6A173B02033602B0072D9EF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D6A173BA203360680072D9EF /* VacancyService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VacancyService.swift; sourceTree = "<group>"; };
+		D6A173BE2033701D0072D9EF /* NetworkClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkClient.swift; sourceTree = "<group>"; };
+		D6A173C02033703E0072D9EF /* CoreHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreHelper.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +70,16 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		D6233B2D203B60BC0057296D /* VacancyModule */ = {
+			isa = PBXGroup;
+			children = (
+				D6233B2E203B60D30057296D /* VacancyInteractor.swift */,
+				D6233B30203B60F10057296D /* VacancyPresenter.swift */,
+				D6233B32203B66400057296D /* VacanciesAssembly.swift */,
+			);
+			path = VacancyModule;
+			sourceTree = "<group>";
+		};
 		D6A1738A2033602B0072D9EF = {
 			isa = PBXGroup;
 			children = (
@@ -79,13 +101,16 @@
 		D6A173952033602B0072D9EF /* hh_test */ = {
 			isa = PBXGroup;
 			children = (
+				D6233B2D203B60BC0057296D /* VacancyModule */,
+				D6A173BC20336FF60072D9EF /* Core */,
+				D6A173B9203360560072D9EF /* Services */,
 				D6A173962033602B0072D9EF /* AppDelegate.swift */,
 				D6A173982033602B0072D9EF /* ViewController.swift */,
-				D6A1739A2033602B0072D9EF /* Main.storyboard */,
 				D6A173A02033602B0072D9EF /* Assets.xcassets */,
 				D6A173A22033602B0072D9EF /* LaunchScreen.storyboard */,
 				D6A173A52033602B0072D9EF /* Info.plist */,
 				D6A1739D2033602B0072D9EF /* hh_test.xcdatamodeld */,
+				D617D30B203AE2A000526ECE /* VacancyTableViewCell.swift */,
 			);
 			path = hh_test;
 			sourceTree = "<group>";
@@ -97,6 +122,31 @@
 				D6A173B02033602B0072D9EF /* Info.plist */,
 			);
 			path = hh_testTests;
+			sourceTree = "<group>";
+		};
+		D6A173B9203360560072D9EF /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				D6A173BA203360680072D9EF /* VacancyService.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		D6A173BC20336FF60072D9EF /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				D6A173BD203370040072D9EF /* Network client */,
+				D6A173C02033703E0072D9EF /* CoreHelper.swift */,
+			);
+			path = Core;
+			sourceTree = "<group>";
+		};
+		D6A173BD203370040072D9EF /* Network client */ = {
+			isa = PBXGroup;
+			children = (
+				D6A173BE2033701D0072D9EF /* NetworkClient.swift */,
+			);
+			path = "Network client";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -149,7 +199,7 @@
 				TargetAttributes = {
 					D6A173922033602B0072D9EF = {
 						CreatedOnToolsVersion = 9.2;
-						ProvisioningStyle = Automatic;
+						ProvisioningStyle = Manual;
 					};
 					D6A173A92033602B0072D9EF = {
 						CreatedOnToolsVersion = 9.2;
@@ -184,7 +234,6 @@
 			files = (
 				D6A173A42033602B0072D9EF /* LaunchScreen.storyboard in Resources */,
 				D6A173A12033602B0072D9EF /* Assets.xcassets in Resources */,
-				D6A1739C2033602B0072D9EF /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -202,8 +251,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D6233B31203B60F10057296D /* VacancyPresenter.swift in Sources */,
 				D6A173992033602B0072D9EF /* ViewController.swift in Sources */,
+				D6A173BF2033701D0072D9EF /* NetworkClient.swift in Sources */,
+				D6233B2F203B60D30057296D /* VacancyInteractor.swift in Sources */,
+				D6A173C12033703E0072D9EF /* CoreHelper.swift in Sources */,
+				D6233B33203B66400057296D /* VacanciesAssembly.swift in Sources */,
+				D6A173BB203360680072D9EF /* VacancyService.swift in Sources */,
 				D6A1739F2033602B0072D9EF /* hh_test.xcdatamodeld in Sources */,
+				D617D30C203AE2A000526ECE /* VacancyTableViewCell.swift in Sources */,
 				D6A173972033602B0072D9EF /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -227,14 +283,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		D6A1739A2033602B0072D9EF /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				D6A1739B2033602B0072D9EF /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		D6A173A22033602B0072D9EF /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -357,11 +405,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_STYLE = Automatic;
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = hh_test/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.ivedeneev.hh-test";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -371,11 +421,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_STYLE = Automatic;
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = hh_test/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.ivedeneev.hh-test";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
